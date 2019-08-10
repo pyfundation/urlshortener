@@ -63,7 +63,7 @@ onSubmit(e) {
 
     console.log(url);
 
-    axios.post('http://localhost:5000/urls/shorten', url)
+    axios.post('http://antishev-urlshortener-app.herokuapp.com/urls/shorten', url)
       .then(res => 
         this.setState({ shortUrl: res.data,
           msg: res.data}))
