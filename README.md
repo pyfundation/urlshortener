@@ -1,4 +1,4 @@
-# URL Shortener Service
+# URL Shortener
 Application for creating short URLs
 
 ## Technologies in use
